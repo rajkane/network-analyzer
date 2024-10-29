@@ -6,7 +6,7 @@ from getmac import get_mac_address
 
 class Scanner:
     def __init__(self):
-        ip = str(input("Enter your IP (ecample: 192.168.1.1/24): "))
+        ip = str(input("Enter your IP (example: 192.168.1.1/24): "))
         self.ip = ip
 
     def get_mac(self, ip):
